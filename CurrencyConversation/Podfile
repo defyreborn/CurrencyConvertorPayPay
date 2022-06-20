@@ -1,0 +1,32 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'CurrencyConversation' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Keyboard Management
+  pod 'IQKeyboardManagerSwift'
+  
+  # Network Call
+  pod 'Alamofire'
+  
+  # DropDown
+  pod 'DropDown'
+  
+  # Activity Indicator
+  pod 'SVProgressHUD'
+  
+  
+  # Pods for CurrencyConversation
+
+#  target 'CurrencyConversationTests' do
+#    inherit! :search_paths
+#    # Pods for testing
+#  end
+#
+#  target 'CurrencyConversationUITests' do
+#    # Pods for testing
+#  end
+
+end
